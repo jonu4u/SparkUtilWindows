@@ -3,13 +3,9 @@
 *
 * 
 */
-lazy val commonSettings = Seq(
-  organization := "com.ericsson",
+lazy val commonSettings = Seq( 
   version := "0.1.0",
-  scalaVersion := "2.10.4",
-  mainClass in assembly := Some("com.ericsson.mtn.OOBUsageAnalysisMonthly")
- //mainClass in assembly := Some("com.ericsson.mtn.ESRStaging")  
-  //mainClass in assembly := Some("com.ericsson.mtn.XDRStaging")  
+  scalaVersion := "2.10.4"   
 )
 
 //Assembly plugin settings
@@ -40,13 +36,11 @@ lazy val root = (project in file(".")).
   settings(assemblySettings: _*).
   settings(repositories: _*).
   settings(
-    name := "IntProjectSparkStream",
+    name := "SparkUtilsWindows",
      
-    libraryDependencies += "com.databricks" % "spark-csv_2.10" % "1.5.0",
     libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2",	
-	libraryDependencies += "org.apache.spark" % "spark-hive_2.10" % "1.6.3"  % "provided",
-	libraryDependencies += "org.apache.spark" % "spark-sql_2.10" % "1.6.3" % "provided",
 	libraryDependencies += "org.apache.commons" % "commons-pool2" % "2.0",
+	libraryDependencies += "org.apache.spark" % "spark-sql_2.10" % "1.6.3" ,
 	libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.6.3",
 	libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.6.3",
 	libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.6.3",

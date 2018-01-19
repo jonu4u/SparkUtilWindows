@@ -4,6 +4,7 @@
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\com.typesafe.scala-logging\scala-logging-slf4j_2.10\jars\scala-logging-slf4j_2.10-2.1.2.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\com.typesafe.scala-logging\scala-logging-api_2.10\jars\scala-logging-api_2.10-2.1.2.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.commons\commons-pool2\jars\commons-pool2-2.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.spark\spark-sql_2.10\jars\spark-sql_2.10-1.6.3.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.spark\spark-core_2.10\jars\spark-core_2.10-1.6.3.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.avro\avro-mapred\jars\avro-mapred-1.7.7-hadoop2.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.avro\avro-ipc\jars\avro-ipc-1.7.7.jar"/>
@@ -122,6 +123,16 @@
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.tachyonproject\tachyon-underfs-local\jars\tachyon-underfs-local-0.8.2.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\net.razorvine\pyrolite\jars\pyrolite-4.9.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\net.sf.py4j\py4j\jars\py4j-0.9.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.spark\spark-catalyst_2.10\jars\spark-catalyst_2.10-1.6.3.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.codehaus.janino\janino\jars\janino-2.7.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.codehaus.janino\commons-compiler\jars\commons-compiler-2.7.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-column\jars\parquet-column-1.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-common\jars\parquet-common-1.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-encoding\jars\parquet-encoding-1.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-generator\jars\parquet-generator-1.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-hadoop\jars\parquet-hadoop-1.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-format\jars\parquet-format-2.3.0-incubating.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.parquet\parquet-jackson\jars\parquet-jackson-1.7.0.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.spark\spark-streaming-kafka_2.10\jars\spark-streaming-kafka_2.10-1.6.3.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.kafka\kafka_2.10\jars\kafka_2.10-0.8.2.1.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\com.yammer.metrics\metrics-core\jars\metrics-core-2.2.0.jar"/>

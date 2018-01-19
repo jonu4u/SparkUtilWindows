@@ -7,3 +7,8 @@ Desired Class: KafkaSparkStream.scala
 # Spark-Flume Integration
 Please see the flumeRunner folder for setting up Flume spooling to a directory in Windows. Once Flume is set up  Spark can be used from eclipse as a streaming to Flume and consume flume events.
 Desired Class: FlumeSparkStream.scala
+
+# Spark-Nested JSON Flattening
+This class flattens a multi-level nested json and extracts relevant information.
+resources/exampleNested.json is the json used for this exercise.
+Desired Class: JSONSpark.scala
