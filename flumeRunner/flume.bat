@@ -1,0 +1,1 @@
+java -Dlog4j.configuration=file:///C:\Flume\apache-flume-1.6.0-bin\conf\log4j.properties -Dflume.root.logger=INFO,console -cp "C:\\Flume\apache-flume-1.6.0-bin\lib\*" org.apache.flume.node.Application -f C:\Flume\apache-flume-1.6.0-bin\conf\flume-confSparkSink.properties -n agent1
