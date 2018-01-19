@@ -5,5 +5,5 @@ Please see the kafkaRunner folder for setting up Kafka producer in Windows. Once
 Desired Class: KafkaSparkStream.scala
 
 # Spark-Flume Integration
-Please see the flume folder for setting up Flume spooling to a directory in Windows. Once Flume is set up  Spark can be used from eclipse as a streaming to Flume and consume flume events.
+Please see the flumeRunner folder for setting up Flume spooling to a directory in Windows. Once Flume is set up  Spark can be used from eclipse as a streaming to Flume and consume flume events.
 Desired Class: FlumeSparkStream.scala
