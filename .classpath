@@ -151,6 +151,7 @@
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.mortbay.jetty\jetty\jars\jetty-6.1.26.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.2.2.jar"/>
   <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\org.apache.mina\mina-core\bundles\mina-core-2.0.4.jar"/>
+  <classpathentry kind="lib" path="C:\Users\edebjan\.ivy2\cache\com.databricks\spark-xml_2.10\jars\spark-xml_2.10-0.4.0.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>
